@@ -17,7 +17,7 @@ public class TestConfig implements CommandLineRunner{
 	
 	//por enquanto essa classe vai servir para "database seeding"(popular o banco de dados)
 	
-	@Autowired
+	@Autowired //responsável por fazer o spring injetar as dependências de forma transparente
 	private UserRepository userRepository;
 
 	//para fazer o test precisamos implementar o CommandLineRunner
